@@ -17,8 +17,8 @@ const NavbarSheet = () => {
         <button className="mr-4 underline p-2 px-5 cursor-pointer hover:scale-105 duration-300 ease-in-out">
           Sign in
         </button>
-        <button className="bg-[#002A30] text-white p-2 px-5 cursor-pointer rounded-sm hover:bg-white hover:text-[#002A30] 
-        hover:border hover:border-[#002A30] duration-300 ease-in-out">
+        <button className="bg-[#001032] text-white p-2 px-5 cursor-pointer rounded-sm hover:bg-white hover:text-[#001032] 
+        hover:border hover:border-[#001032] duration-300 ease-in-out">
           Sign up
         </button>
       </div>
@@ -32,14 +32,14 @@ const NavbarSheet = () => {
             <SheetHeader>
               <SheetTitle></SheetTitle>
               <div>
-                <h1 className="text-xl font-semibold mb-10 text-[#002A30]">
+                <h1 className="text-xl font-semibold mb-10 text-[#001032]">
                   Satlok Foundation
                 </h1>
                 <hr/>
 
-                <div className="text-lg text-[#002A30]">
+                <div className="text-lg text-[#001032]">
                   <ul>
-                    <li className="p-6  group relative duration-300 ease-in-out  hover:bg-[#002A30] hover:text-white hover:rounded-sm">
+                    <li className="p-6  group relative duration-300 ease-in-out  hover:bg-[#001032] hover:text-white hover:rounded-sm">
                       <div className="flex justify-between items-center">
                           <p> Auxiliaries</p>
                           <IoIosArrowRoundForward  size={25}/>
@@ -57,11 +57,11 @@ const NavbarSheet = () => {
                       </div>
                     </li>
                     <hr/>
-                    <li className="p-6  duration-300 ease-in-out  hover:bg-[#002A30] hover:text-white hover:rounded-sm ">
+                    <li className="p-6  duration-300 ease-in-out  hover:bg-[#001032] hover:text-white hover:rounded-sm ">
                       <Link to="/">NGO/NPO</Link>
                     </li>
                     <hr/>
-                    <li className="p-6  group duration-300 ease-in-out  relative hover:bg-[#002A30] hover:text-white hover:rounded-sm">
+                    <li className="p-6  group duration-300 ease-in-out  relative hover:bg-[#001032] hover:text-white hover:rounded-sm">
                      <div className="flex justify-between items-center">
                           <p> Resources</p>
                           <IoIosArrowRoundForward  size={25}/>
@@ -102,10 +102,10 @@ const NavbarSheet = () => {
 
 
                 <div className="w-full flex flex-col justify-center items-center gap-4 mt-10 absolute bottom-4  pr-8 text-xl">
-                  <button className="border border-[#002A30] w-full text-[#002A30] rounded-sm p-2
-                  hover:bg-[#002A30] hover:text-white">Sign in</button>
-                  <button className="bg-[#002A30] w-full text-white  rounded-sm p-2 
-                  hover:bg-white hover:text-[#002A30] hover:border hover:border-[#002A30] duration-300 ease-in-out">Sign up</button>
+                  <button className="border border-[#001032] w-full text-[#001032] rounded-sm p-2
+                  hover:bg-[#001032] hover:text-white">Sign in</button>
+                  <button className="bg-[#001032] w-full text-white  rounded-sm p-2 
+                  hover:bg-white hover:text-[#001032] hover:border hover:border-[#001032] duration-300 ease-in-out">Sign up</button>
                 </div>
               </div>
             </SheetHeader>

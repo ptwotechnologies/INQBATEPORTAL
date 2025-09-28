@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from "../../../public/homeSec2Img1.png"
-import img2 from "../../../public/homeSec2Img2.png"
-import img3 from "../../../public/homeSec2Img3.png"
+
+
+
 import ScrollAreaSec from './ScrollAreaSec'
 
 
@@ -63,19 +63,19 @@ const HomeSection2 = () => {
                 <div className=' w-[30%]'>
                 <hr className='border-t border-gray-500 pb-8 w-[90%] '/>
                 <h3 className='text-2xl pb-5'>Startups</h3>
-                <img src={img1} alt="" className='rounded-2xl w-[90%] h-[400px]' />
+                <img src={"/homeSec2Img1.png"} alt="" className='rounded-2xl w-[90%] h-[400px]' />
                 <p className='pt-4 text-md leading-6 tracking-wider w-[90%] mb-10'>You’re building a startup that solves a real-world problem </p>
              </div>
              <div className=' w-[30%]'>
                 <hr className='border-t border-gray-500 pb-8 w-[90%] ' />
                 <h3 className='text-2xl pb-5'>Investors</h3>
-                <img src={img2} alt="" className='rounded-2xl w-[90%] h-[400px]' />
+                <img src={"/homeSec2Img2.png"} alt="" className='rounded-2xl w-[90%] h-[400px]' />
                 <p className='pt-4 text-md leading-6 tracking-wider w-[90%] mb-10'>You want incubated startups curated to your domain </p>
              </div>
              <div className=' w-[30%]'>
                 <hr className='border-t border-gray-500 pb-8 w-[90%] '/>
                 <h3 className='text-2xl pb-5'>Service Professionals</h3>
-                <img src={img3} alt="" className='rounded-2xl w-[90%] h-[400px]' />
+                <img src={"/homeSec2Img3.png"} alt="" className='rounded-2xl w-[90%] h-[400px]' />
                 <p className='pt-4 text-md leading-6 tracking-wider w-[90%] mb-17'>You want startups curated to your domain</p>
              </div>
              </div>

@@ -4,8 +4,8 @@ const AboutSec3 = () => {
   return (
     <div className="mt-16 bg-[#00000040] rounded-[70px]  p-15 px-20 text-white pb-9">
       <div className="flex justify-center items-center gap-5">
-        <div id="left " className="bg-[#002A30CC] rounded-sm pb-4">
-        <h1 className="bg-[#002A30] text-4xl leading-9 mx-14 font-semibold px-9 py-6">
+        <div id="left " className="bg-[#001032CC] rounded-sm pb-4">
+        <h1 className="bg-[#001032] text-4xl leading-9 mx-14 font-semibold px-9 py-6">
           Where startups, experts and capital grow together
         </h1>
         <p className="text-2xl p-7 px-20">

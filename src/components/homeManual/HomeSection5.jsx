@@ -60,7 +60,7 @@ const HomeSection5 = () => {
                 </div>
                 <div className='flex justify-center items-center gap-5 '>
                    <div className="border-l h-20 border-[#00000033]  "></div>
-                <div className='w-[60px] h-[100px] bg-[#002A30] rounded-4xl'>
+                <div className='w-[60px] h-[100px] bg-[#001032] rounded-4xl'>
                 </div>
                 </div>
            </div>

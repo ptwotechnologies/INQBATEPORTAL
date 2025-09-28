@@ -39,7 +39,7 @@ const HomeSection6 = () => {
 
 
             </div>
-            <div className='bg-[#002A30CC] rounded-sm p-6'>
+            <div className='bg-[#001032CC] rounded-sm p-6'>
                 <div className='flex justify-start items-center py-4 gap-4 '>
                     <div className='bg-[#FFFFFF] w-22 h-22'></div>
                     <h1 className='text-2xl font-semibold'>Service Professionals</h1>
@@ -81,7 +81,7 @@ const HomeSection6 = () => {
 
 
             </div>
-            <div className='bg-[#002A30CC] rounded-sm p-6' >
+            <div className='bg-[#001032CC] rounded-sm p-6' >
                 <div className='flex justify-start items-center py-4 gap-4 '>
                     <div className='bg-[#FFFFFF] w-22 h-22'></div>
                     <h1 className='text-2xl font-semibold'>Service Professionals</h1>

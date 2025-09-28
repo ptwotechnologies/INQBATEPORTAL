@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../../public/homeSec4.png";
+
 
 const HomeSection4 = () => {
   return (
@@ -78,7 +78,7 @@ const HomeSection4 = () => {
           <button className="bg-[#BDBBFF] text-[#001D21] p-4 px-7 rounded-sm"> Explore demo</button>
         </div>
         <div id="right" className="w-[70%]  ">
-          <img src={img1} alt="" className="h-[550px] w-full" />
+          <img src={"/homeSec4.png"} alt="" className="h-[550px] w-full" />
         </div>
       </div>
       </div>

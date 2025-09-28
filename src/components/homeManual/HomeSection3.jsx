@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../../public/homeSec2Img2.png"
+
 import { Link } from "react-router-dom";
 
 const HomeSection3 = () => {
@@ -13,18 +13,18 @@ const HomeSection3 = () => {
           Cool, let’s show you around.
         </p>
         <div className="text-white rounded-2xl font-medium hidden lg:block">
-          <button className="bg-[#F4C12D] m-2 w-100 p-2 text-2xl rounded-sm">
+          <button className="bg-[#001D21] m-2 w-100 p-2 text-2xl rounded-sm">
             I’d Like To Get Me Started
           </button>
-          <button className="bg-[#F4C12D] m-2 w-100 p-2 text-2xl rounded-sm">
+          <button className="bg-[#001D21] m-2 w-100 p-2 text-2xl rounded-sm">
             How it works
           </button>
         </div>
         <div className="text-white rounded-2xl font-medium flex justify-center items-center lg:hidden">
-           <button className="bg-[#F4C12D] m-2 w-fit p-2 text-md lg:text-xl rounded-sm">
+           <button className="bg-[#001D21] m-2 w-fit p-2 text-md lg:text-xl rounded-sm">
             How it works
           </button>
-          <button className="border border-[#12355C] text-[#002A30] m-2 w-fit p-2 text-md lg:text-xl rounded-sm">
+          <button className="border border-[#12355C] text-[#001032] m-2 w-fit p-2 text-md lg:text-xl rounded-sm">
             I’d Like To Get Me Started
           </button>
          
@@ -64,13 +64,13 @@ const HomeSection3 = () => {
        </div>
        <div className="flex justify-center items-center gap-10 w-full rounded-sm">
          <div className="  h-96 w-full ">
-            <img src={img1} alt="Image" className="h-96 w-full rounded-xs"/>
+            <img src={"/homeSec2Img2.png"} alt="Image" className="h-96 w-full rounded-xs"/>
         </div>
         <div className=" h-96 w-full  "> 
-          <img src={img1} alt="Image" className="h-96 w-full rounded-xs" />
+          <img src={"/homeSec2Img2.png"} alt="Image" className="h-96 w-full rounded-xs" />
           </div>
           <div className=" h-96 w-full  "> 
-          <img src={img1} alt="Image" className="h-96 w-full rounded-xs" />
+          <img src={"/homeSec2Img2.png"} alt="Image" className="h-96 w-full rounded-xs" />
           </div>
        </div>
          
@@ -90,11 +90,11 @@ const HomeSection3 = () => {
                 The problem wasn’t our ideas.
                  It was the system around us.
                   </p>
-                <p className="bg-[#F4C12DE5] p-3 text-sm rounded-4xl text-center mt-9 mb-3">Really! The system is built to drain founders…</p>
+                <p className="bg-[#001D21E5] p-3 text-sm rounded-4xl text-center mt-9 mb-3">Really! The system is built to drain founders…</p>
                 <p className="px-2 text-sm font-light">First, the ad platforms charge you for every single click (doesn’t matter if those clicks) <Link to="/" className="cursor-pointer">See more...</Link></p>
                 <hr className="border-t border-[#FFFFFF33] mt-9 m-3 "/>
 
-                <p className="bg-[#F4C12DE5] p-3  text-sm rounded-4xl text-center mt-6 mb-3">That’s when we decided, we need to fix this... </p>
+                <p className="bg-[#001D21E5] p-3  text-sm rounded-4xl text-center mt-6 mb-3">That’s when we decided, we need to fix this... </p>
                 <p className="px-2 pl-4 text-sm font-light">So our team sat together, spent months on planning, strategizing, building and came up <Link to="/" className="cursor-pointer">See more...</Link></p>
         </div>
         <div className="lg:hidden p-4">
